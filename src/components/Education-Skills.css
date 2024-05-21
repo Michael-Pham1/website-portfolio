@@ -1,0 +1,33 @@
+.Education-Skills {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.Education-Skills main {
+  text-align: left;
+  display: flex;
+  gap: 20px;
+}
+
+.Education-Skills div {
+  flex: 1;
+  background-color: beige;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.main-item span {
+  font-weight: bold;
+}
+
+.main-item li {
+  list-style-type: initial;
+}
