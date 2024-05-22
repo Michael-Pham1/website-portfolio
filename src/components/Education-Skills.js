@@ -1,10 +1,11 @@
 import "./Education-Skills.css";
+import "./textContainer.css"
 
 function EducationSkills() {
   return (
     <div className="Education-Skills">
       <main>
-        <div>
+        <div class="text-container">
           <h3>Education</h3>
           <ul>
             <li className="main-item">
@@ -31,7 +32,7 @@ function EducationSkills() {
             </li>
           </ul>
         </div>
-        <div>
+        <div class="text-container">
           <h3>Skills</h3>
             <ul>
               <li className="main-item" >

@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
+import logo from "./anime-woman.png";
 import "./App.css";
-import "../src/components/About.css";
 import About from "./components/About";
-import Education from "./components/Education-Skills";
+import EducationSkills from "./components/Education-Skills";
+import NavBar from "./components/Navbar";
+import Experience from "./components/Experience";
+
 function App() {
   return (
     <div className="App">
@@ -10,8 +12,18 @@ function App() {
         <h1>Prufessional websight</h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <About />
-      <Education />
+      <NavBar />
+      <div id="main-content">
+        <div id="about">
+          <About />
+        </div>
+        <div id="education-skills">
+          <EducationSkills />
+        </div>
+        <div id="experience">
+          <Experience />
+        </div>
+      </div>
     </div>
   );
 }

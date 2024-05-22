@@ -35,3 +35,12 @@
     transform: rotate(360deg);
   }
 }
+
+#main-content {
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

@@ -1,0 +1,27 @@
+.text-container {
+  flex: 1;
+  background-color: beige;
+  border-radius: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 5%; 
+  padding-left: 5%;
+}
+/* TODO: fix the ul and li sutff */
+.main-item span {
+  font-weight: bold;
+}
+
+.main-item li {
+  list-style-type: initial;
+}
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+

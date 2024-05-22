@@ -1,10 +1,10 @@
-import "./About.css";
+import "./textContainer.css";
 
 function About() {
   return (
-    <div className="About">
+    <div className="About text-container">
       <header>
-        <h4>About Me</h4>
+        <h3>About Me</h3>
       </header>
       <main>
         <p>
