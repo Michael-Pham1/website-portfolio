@@ -2,6 +2,10 @@
   text-align: center;
   margin-bottom: 50px;
   gap: 50px;
+  background-image: url("../public/j-tree.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 10% 20%;
 }
 
 .App-logo {
