@@ -1,4 +1,3 @@
-import logo from "./anime-woman.png";
 import "./App.css";
 import About from "./components/About";
 import EducationSkills from "./components/Education-Skills";
@@ -8,21 +7,20 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Prufessional websight</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
       <NavBar />
-      <div id="main-content">
-        <div id="about">
-          <About />
-        </div>
-        <div id="education-skills">
-          <EducationSkills />
-        </div>
-        <div id="experience">
-          <Experience />
-        </div>
+
+      <div id="home" className="parallax-1">
+        <h1>Welcome!</h1>
+      </div>
+      <div id="about" className="main-content">
+        <About />
+      </div>
+      <div className="parallax-2"></div>
+      <div id="education-skills" className="main-content">
+        <EducationSkills />
+      </div>
+      <div id="experience" className="main-content">
+        <Experience />
       </div>
     </div>
   );

@@ -5,6 +5,9 @@ function NavBar() {
   return (
     <nav>
       <div id="nav-row">
+        <div className="nav-item">
+          <a href="#home">Home</a>
+        </div>
         <div class="nav-item">
           <a href="#about">About</a>
         </div>
