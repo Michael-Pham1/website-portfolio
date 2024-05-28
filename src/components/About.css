@@ -1,0 +1,22 @@
+#resume div {
+  padding: 0.5em;
+  width: 50%;
+  transition: transform 0.3s ease;
+  background-color: rgb(85, 85, 85);
+  opacity: 0.85;
+  border-radius: 4px;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+
+#resume {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+#resume div:hover {
+  transform: scale(1.2);
+}

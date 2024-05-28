@@ -1,7 +1,9 @@
 import "./textContainer.css";
+import "./About.css"
+import resume from "../assets/resume.pdf";
 
 function About() {
-  
+
   return (
     <div className="About text-container">
       <header>
@@ -19,6 +21,11 @@ function About() {
           although I'm really looking forward to climbing more outdoors. The instruments I play are piano, marimba,
           electric guitar and electric bass
         </p>
+        <section>
+          <a id="resume" href={resume} target="_blank">
+            <div>Resume</div>
+          </a>
+        </section>
       </main>
     </div>
   );
