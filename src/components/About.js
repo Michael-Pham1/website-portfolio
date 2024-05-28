@@ -14,8 +14,9 @@ function About() {
           for.
         </p>
         <p>
-          My interests include rock climbing and playing music. The instruments I play are piano, marimba, electric
-          guitar and electric bass
+          My interests include rock climbing and playing music. As a rock climber, I mostly boulder around v5 indoors,
+          although I'm really looking forward to climbing more outdoors. The instruments I play are piano, marimba,
+          electric guitar and electric bass
         </p>
       </main>
     </div>

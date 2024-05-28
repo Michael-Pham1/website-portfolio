@@ -7,33 +7,50 @@
 .main-content {
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 60px;
+  margin-left: 60px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .parallax-1 {
   min-height: 100vh;
-  background-image: url("/public/j-tree3.jpg");
+  background-image: url("/public/j-tree.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center 20%;
   color: black;
   padding-top: 25vh;
+  padding-right:60px;
+  padding-left:60px;
 }
 
 .parallax-1 h1 {
-  font-size: 5em;
+  font-size: 4em;
   opacity: 0.8;
   margin: 0;
 }
 
 .parallax-2 {
   min-height: 100vh;
-  background-image: url("/public/j-tree.jpg");
+  background-image: url("/public/j-tree2.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center 50%;
+}
+
+.parallax-3 {
+  min-height: 100vh;
+  background-image: url("/public/j-tree4.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 50%;
+}
+
+.parallax-4 {
+  min-height: 100vh;
+  background-image: url("/public/j-tree3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 20%;
 }

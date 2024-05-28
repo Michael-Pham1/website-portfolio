@@ -1,17 +1,27 @@
 .text-container {
   flex: 1;
-  background-color: beige;
+  background-color: black;
   opacity: 0.9;
   border-radius: 20px;
   text-align: left;
   padding-bottom: 20px;
   padding-top: 10px;
-  padding-right: 5%;
-  padding-left: 5%;
-  color: black;
+  color: white;
+  max-width: 75%;
+  margin-right: auto;
+  margin-left:auto;
 }
 .main-item span {
   font-weight: bold;
+}
+
+.main-item a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.main-item a:hover {
+  color: #ffcc00;
 }
 
 .main-item li {

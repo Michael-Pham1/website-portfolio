@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+}
+
+.footer img {
+  width: 50px;
+}
+
+#github {
+  transform: scale(1.5);
+}
+

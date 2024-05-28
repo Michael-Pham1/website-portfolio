@@ -5,18 +5,24 @@ function NavBar() {
   return (
     <nav>
       <div id="nav-row">
-        <div className="nav-item">
-          <a href="#home">Home</a>
-        </div>
-        <div class="nav-item">
-          <a href="#about">About</a>
-        </div>
-        <div class="nav-item">
-          <a href="#education-skills">Education/Skills</a>
-        </div>
-        <div class="nav-item">
-          <a href="#experience">Experience</a>
-        </div>
+        <a href="#home">
+          <div className="nav-item">Home</div>
+        </a>
+        <a href="#about">
+          <div class="nav-item">About</div>
+        </a>
+        <a href="#education-skills">
+          <div class="nav-item">Education/Skills</div>
+        </a>
+        <a href="#experience">
+          <div class="nav-item">Experience</div>
+        </a>
+        <a href="#projects">
+          <div class="nav-item">Projects</div>
+        </a>
+        <a href="#footer">
+          <div class="nav-item">Contact</div>
+        </a>
       </div>
     </nav>
   );

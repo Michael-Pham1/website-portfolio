@@ -8,7 +8,7 @@ function Experience() {
         <span>Software Engineering Intern / Team Lead</span> -{" "}
         <span style={{ fontStyle: "italic", fontWeight: "normal" }}>
           {" "}
-          <a href="https://www.trapnstudio.com/trapnstudio">Trapnstudio</a> (September 2022 - Present)
+          <a href="https://www.trapnstudio.com/trapnstudio" target="_blank">Trapnstudio</a> (September 2022 - Present)
         </span>
         <ul>
           <li>
