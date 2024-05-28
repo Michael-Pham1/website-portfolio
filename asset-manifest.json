@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be9a0f84.css",
+    "main.js": "/static/js/main.87414e00.js",
+    "static/js/453.5a536778.chunk.js": "/static/js/453.5a536778.chunk.js",
+    "static/media/j-tree2.jpg": "/static/media/j-tree2.ca15ec7133b52d1f6d42.jpg",
+    "static/media/j-tree3.jpg": "/static/media/j-tree3.183239fa474fda0b1d4b.jpg",
+    "static/media/j-tree.jpg": "/static/media/j-tree.0596d7d2f189ac8c41a1.jpg",
+    "index.html": "/index.html",
+    "main.be9a0f84.css.map": "/static/css/main.be9a0f84.css.map",
+    "main.87414e00.js.map": "/static/js/main.87414e00.js.map",
+    "453.5a536778.chunk.js.map": "/static/js/453.5a536778.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be9a0f84.css",
+    "static/js/main.87414e00.js"
+  ]
+}
