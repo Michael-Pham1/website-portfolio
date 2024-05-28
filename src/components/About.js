@@ -1,6 +1,7 @@
 import "./textContainer.css";
 
 function About() {
+  
   return (
     <div className="About text-container">
       <header>
